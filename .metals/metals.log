@@ -260,3 +260,7 @@ WARNING: Unmatched cancel notification for request id 2760
 [0m2021.04.07 21:29:49 INFO  time: compiled blurgle in 1.41s[0m
 [0m2021.04.07 21:31:05 WARN  no build target for: /home/alainaf/theprojects/blurgle/blurgle/gitignore.scala[0m
 [0m2021.04.07 21:31:06 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m
+Apr 07, 2021 9:53:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.04.07 21:53:20 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:53:20 INFO  time: compiled blurgle in 0.29s[0m
