@@ -1,0 +1,4 @@
+[debug] [blurgle-build] Classpath dependencies List()
+[debug] [blurgle-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'blurgle-build' to '/home/alainaf/theprojects/blurgle/blurgle/project/.bloop/blurgle-build.json'
+[success] Generated .bloop/blurgle-build.json

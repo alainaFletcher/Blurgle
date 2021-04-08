@@ -1,0 +1,262 @@
+[0m2021.04.07 20:30:01 INFO  Started: Metals version 0.10.1 in workspace '/home/alainaf/theprojects/blurgle/blurgle' for client vscode 1.55.0.[0m
+[0m2021.04.07 20:30:02 INFO  time: initialize in 1.35s[0m
+[0m2021.04.07 20:30:03 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.07 20:30:05 WARN  no build target for: /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Main.scala[0m
+[0m2021.04.07 20:30:08 INFO  running '/usr/lib/jvm/java-8-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8969283381085864789/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.07 20:30:09 WARN  no build target for: /home/alainaf/theprojects/blurgle/blurgle/project/metals.sbt[0m
+[0m2021.04.07 20:30:09 WARN  no build target for: /home/alainaf/theprojects/blurgle/blurgle/project/project/metals.sbt[0m
+[0m2021.04.07 20:30:08 INFO  skipping build import with status 'Started'[0m
+[0m2021.04.07 20:30:12 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.07 20:30:17 INFO  [info] welcome to sbt 1.4.9 (Private Build Java 1.8.0_282)[0m
+[0m2021.04.07 20:30:18 INFO  time: code lens generation in 10s[0m
+[0m2021.04.07 20:30:18 INFO  time: code lens generation in 12s[0m
+[0m2021.04.07 20:30:23 INFO  [info] loading settings for project blurgle-build-build from metals.sbt ...[0m
+[0m2021.04.07 20:30:24 INFO  [info] loading project definition from /home/alainaf/theprojects/blurgle/blurgle/project/project[0m
+[0m2021.04.07 20:30:28 INFO  [info] loading settings for project blurgle-build from metals.sbt ...[0m
+[0m2021.04.07 20:30:28 INFO  [info] loading project definition from /home/alainaf/theprojects/blurgle/blurgle/project[0m
+[0m2021.04.07 20:30:33 INFO  [success] Generated .bloop/blurgle-build.json[0m
+[0m2021.04.07 20:30:33 INFO  [success] Total time: 5 s, completed Apr 7, 2021 8:30:33 PM[0m
+[0m2021.04.07 20:30:36 INFO  [info] loading settings for project blurgle from build.sbt ...[0m
+[0m2021.04.07 20:30:36 INFO  [info] set current project to hello-world (in build file:/home/alainaf/theprojects/blurgle/blurgle/)[0m
+[0m2021.04.07 20:30:37 INFO  [success] Generated .bloop/blurgle-test.json[0m
+[0m2021.04.07 20:30:37 INFO  [success] Generated .bloop/blurgle.json[0m
+[0m2021.04.07 20:30:37 INFO  [success] Total time: 1 s, completed Apr 7, 2021 8:30:37 PM[0m
+[0m2021.04.07 20:30:37 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.07 20:30:38 INFO  time: ran 'sbt bloopInstall' in 30s[0m
+[0m2021.04.07 20:30:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7125227826040168122/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/alainaf/theprojects/blurgle/blurgle/.bloop'...
+[0m[32m[D][0m Loading project from '/home/alainaf/theprojects/blurgle/blurgle/.bloop/blurgle.json'
+[0m[32m[D][0m Loading project from '/home/alainaf/theprojects/blurgle/blurgle/.bloop/blurgle-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.3.
+[0m[32m[D][0m   => /home/alainaf/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/alainaf/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.15.0/jline-3.15.0.jar
+[0m[32m[D][0m   => /home/alainaf/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.3/scala-compiler-2.13.3.jar
+[0m[32m[D][0m   => /home/alainaf/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar
+[0m[32m[D][0m   => /home/alainaf/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar
+[0m[32m[D][0m Missing analysis file for project 'blurgle'
+[0m[32m[D][0m Missing analysis file for project 'blurgle-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7125227826040168122/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7125227826040168122/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.07 20:30:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/alainaf/.cache/metals/bsp.trace.json[0m
+[0m2021.04.07 20:30:43 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher6401335304538793443/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher6401335304538793443/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher6401335304538793443/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.07 20:30:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/alainaf/.cache/metals/bsp.trace.json[0m
+[0m2021.04.07 20:30:45 INFO  time: Connected to build server in 6.56s[0m
+[0m2021.04.07 20:30:45 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.07 20:30:45 INFO  time: Imported build in 0.2s[0m
+[0m2021.04.07 20:30:47 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.04.07 20:30:51 INFO  time: indexed workspace in 6.16s[0m
+[0m2021.04.07 20:31:24 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:31:31 INFO  time: compiled blurgle in 6.17s[0m
+[0m2021.04.07 20:36:41 INFO  compiling blurgle (1 scala source)[0m
+Apr 07, 2021 8:36:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+[0m2021.04.07 20:36:42 INFO  time: compiled blurgle in 1.25s[0m
+Apr 07, 2021 8:36:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Apr 07, 2021 8:36:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+Apr 07, 2021 8:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+[0m2021.04.07 20:36:55 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:36:55 INFO  time: compiled blurgle in 0.81s[0m
+[0m2021.04.07 20:37:01 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:37:01 INFO  time: compiled blurgle in 0.25s[0m
+Apr 07, 2021 8:37:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 117
+[0m2021.04.07 20:37:41 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:37:41 INFO  time: compiled blurgle in 0.26s[0m
+Apr 07, 2021 8:37:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 199
+Apr 07, 2021 8:38:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 207
+[0m2021.04.07 20:38:20 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:38:20 INFO  time: compiled blurgle in 0.53s[0m
+[0m2021.04.07 20:38:23 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:38:23 INFO  time: compiled blurgle in 0.25s[0m
+[0m2021.04.07 20:38:36 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:38:36 INFO  time: compiled blurgle in 0.32s[0m
+Apr 07, 2021 8:38:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 285
+Apr 07, 2021 8:39:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 291
+[0m2021.04.07 20:39:05 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:39:05 INFO  time: compiled blurgle in 0.31s[0m
+Apr 07, 2021 8:39:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 315
+[0m2021.04.07 20:39:36 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:39:36 INFO  time: compiled blurgle in 0.36s[0m
+Apr 07, 2021 8:39:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 348
+Apr 07, 2021 8:39:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 354
+[0m2021.04.07 20:39:59 INFO  compiling blurgle (2 scala sources)[0m
+[0m2021.04.07 20:40:02 INFO  time: compiled blurgle in 2.32s[0m
+Apr 07, 2021 8:40:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 385
+[0m2021.04.07 20:40:32 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:40:33 INFO  time: compiled blurgle in 1.32s[0m
+[0m2021.04.07 20:42:14 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:42:15 INFO  time: compiled blurgle in 1.23s[0m
+[0m2021.04.07 20:46:03 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:46:04 INFO  time: compiled blurgle in 1.46s[0m
+[0m2021.04.07 20:52:14 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:52:14 INFO  time: compiled blurgle in 0.21s[0m
+[0m2021.04.07 20:54:26 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:26 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:26 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:26 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:31 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:31 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:31 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:31 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:18:17: stale bloop error: '<-' expected but ')' found.
+        for(line)
+                ^[0m
+[0m2021.04.07 20:54:30 INFO  /home/alainaf/theprojects/blurgle/blurgle/src/main/scala/Blurgling.scala:22:5: stale bloop error: illegal start of simple expression
+    }
+    ^[0m
+[0m2021.04.07 20:55:01 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 20:55:01 INFO  time: compiled blurgle in 0.24s[0m
+[0m2021.04.07 21:02:26 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:02:26 INFO  time: compiled blurgle in 0.68s[0m
+[0m2021.04.07 21:05:03 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:05:03 INFO  time: compiled blurgle in 0.5s[0m
+[0m2021.04.07 21:05:25 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:05:25 INFO  time: compiled blurgle in 0.37s[0m
+[0m2021.04.07 21:07:36 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:07:36 INFO  time: compiled blurgle in 0.44s[0m
+[0m2021.04.07 21:07:43 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:07:43 INFO  time: compiled blurgle in 0.31s[0m
+[0m2021.04.07 21:09:53 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:09:53 INFO  time: compiled blurgle in 0.56s[0m
+[0m2021.04.07 21:10:21 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:10:21 INFO  time: compiled blurgle in 0.45s[0m
+[0m2021.04.07 21:10:35 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:10:35 INFO  time: compiled blurgle in 0.49s[0m
+[0m2021.04.07 21:11:00 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:11:02 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:11:02 INFO  time: compiled blurgle in 2.19s[0m
+Apr 07, 2021 9:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1865
+[0m2021.04.07 21:11:30 INFO  time: code lens generation in 7.43s[0m
+[0m2021.04.07 21:11:44 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:11:46 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:11:46 INFO  time: compiled blurgle in 1.97s[0m
+[0m2021.04.07 21:12:35 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:12:37 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:12:37 INFO  time: compiled blurgle in 2.34s[0m
+[0m2021.04.07 21:13:52 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:13:53 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:13:53 INFO  time: compiled blurgle in 1.65s[0m
+[0m2021.04.07 21:15:13 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:15:13 INFO  time: compiled blurgle in 0.16s[0m
+Apr 07, 2021 9:15:20 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2021.04.07 21:15:23 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:15:25 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:15:25 INFO  time: compiled blurgle in 1.76s[0m
+Apr 07, 2021 9:15:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2289
+[0m2021.04.07 21:17:01 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:17:03 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:17:03 INFO  time: compiled blurgle in 1.6s[0m
+Apr 07, 2021 9:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2308
+Apr 07, 2021 9:18:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2328
+[0m2021.04.07 21:23:22 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:23:24 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:23:24 INFO  time: compiled blurgle in 1.54s[0m
+[0m2021.04.07 21:24:49 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:24:50 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:24:50 INFO  time: compiled blurgle in 1.58s[0m
+[0m2021.04.07 21:26:12 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:26:14 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:26:14 INFO  time: compiled blurgle in 1.51s[0m
+Apr 07, 2021 9:26:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2686
+[0m2021.04.07 21:27:10 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:27:12 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:27:12 INFO  time: compiled blurgle in 1.4s[0m
+Apr 07, 2021 9:27:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2760
+[0m2021.04.07 21:28:11 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:28:12 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:28:12 INFO  time: compiled blurgle in 1.43s[0m
+[0m2021.04.07 21:29:47 INFO  compiling blurgle (1 scala source)[0m
+[0m2021.04.07 21:29:49 WARN  1 deprecation (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.04.07 21:29:49 INFO  time: compiled blurgle in 1.41s[0m
+[0m2021.04.07 21:31:05 WARN  no build target for: /home/alainaf/theprojects/blurgle/blurgle/gitignore.scala[0m
+[0m2021.04.07 21:31:06 INFO  no build target: using presentation compiler with only scala-library: 2.13.3[0m

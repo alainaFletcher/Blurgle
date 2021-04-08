@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/alainaf/theprojects/blurgle/blurgle/target/scala-2.13/hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	blurgle[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/alainaf/theprojects/blurgle/blurgle/target/scala-2.13/classes/blurgle[0m
+[0m[[0m[0mdebug[0m] [0m[0m	blurgle/Blurgling.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/alainaf/theprojects/blurgle/blurgle/target/scala-2.13/classes/blurgle/Blurgling.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	blurgle/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/alainaf/theprojects/blurgle/blurgle/target/scala-2.13/classes/blurgle/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	blurgle/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/alainaf/theprojects/blurgle/blurgle/target/scala-2.13/classes/blurgle/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
